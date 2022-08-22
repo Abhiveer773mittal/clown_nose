@@ -1,0 +1,23 @@
+h1
+{
+    font-size:25px !important;
+    color: black;
+}
+
+.btn-success:hover
+{
+background-color: darkviolet;
+}
+
+canvas
+{
+    animation-name: test;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test 
+{
+from{box-shadow:1px 1px 25px red;}
+to{box-shadow:1px 1px 25px yellow;}
+}
